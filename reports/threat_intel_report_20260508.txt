@@ -1,0 +1,38 @@
+
+====================================================
+     THREAT INTELLIGENCE REPORT
+     Generated: 2026-05-08 08:07:56
+====================================================
+
+EXECUTIVE SUMMARY
+-----------------
+Total IOCs Analysed : 50
+HIGH Priority       : 3
+MEDIUM Priority     : 1
+LOW Priority        : 46
+
+IOC TYPE BREAKDOWN
+------------------
+type
+FileHash-SHA256    15
+FileHash-MD5       11
+FileHash-SHA1       9
+URL                 4
+CVE                 3
+domain              3
+IPv4                3
+hostname            2
+
+SOURCE BREAKDOWN
+----------------
+source
+AlienVault OTX    50
+
+TOP HIGH PRIORITY IOCs
+----------------------
+        value   type         source  malicious_votes
+ process.name domain AlienVault OTX              6.0
+  sfrclak.com domain AlienVault OTX             24.0
+kleymarket.ru domain AlienVault OTX             10.0
+
+====================================================
